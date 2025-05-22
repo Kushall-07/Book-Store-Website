@@ -1,0 +1,202 @@
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.comic {
+    border: 1px solid #ffffff;
+    
+    border-radius: 15px;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+.comic img {
+    width: 190px;
+    height: 260px;
+    border-radius: 2px;
+}
+.catalog h2 {
+    text-align: center;
+    width: 100%;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.search-bar input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #5c0f80;
+    border-radius: 50px;
+}
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.cart-item label {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.comics-section {
+    background-color: #8bb5df; 
+
+    background: linear-gradient(45deg,#387788,#dfdd6e,#6a1592,#000000);
+    padding: 20px;
+    border-radius: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.anime-section {
+    background-color: #cbd2ec; 
+    background: linear-gradient(45deg,#387788,#dfdd6e,#6a1592,#000000);
+    padding: 20px;
+    border-radius: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.comic {
+    background-color: rgb(255, 255, 255); 
+    width: 200px;
+    text-align: center;
+}
+.button {
+    background-color: #1b2723; 
+    color: rgb(255, 255, 255); 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #717472; 
+    transform: scale(1.05); 
+}
+
+.button:active {
+    background-color: #16a0a0; 
+    transform: scale(0.95); 
+}
+h2{
+    color: #ffffff;
+}
+.checkout{
+    background: linear-gradient(45deg,#a3d3e2,#fcfaa5,#b258db,#271c1c);
+}
+.cart-item {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-image {
+    width: 80px;
+    height: 100px;
+    border-radius: 5px; 
+}
+.review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #3d3d3d, #1e1e1e);
+    color: white; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+textarea {
+    width: 60%;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    color: rgb(114, 43, 43);
+    background-color: #ffffff; 
+    border: 1px solid #555;
+    border-radius: 5px;
+    resize: none;
+    transition: all 0.3s ease-in-out;
+}
+
+textarea:focus {
+    border-color: #16a0a0; 
+    outline: none;
+    box-shadow: 0px 0px 5px #16a0a0; /* Glow effect */
+}
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(45deg, #1b2723, #16a0a0);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.payment-form input, .payment-form select {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.payment-form select {
+    background-color: #f0f0f0;
+    color: rgb(8, 7, 7);
+}
+
+.payment-form button {
+    margin-top: 10px;
+    background-color: #16a0a0;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.payment-form button:hover {
+    background-color: #1b2723;
+    transform: scale(1.05);
+}
